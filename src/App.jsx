@@ -1,16 +1,18 @@
-import ButtenGradient from './assets/svg/ButtonGradient'
-import Button from './components/Button'
-import Header from './components/Header'
+import ButtenGradient from "./assets/svg/ButtonGradient";
+import Button from "./components/Button";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
     <>
-      <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden' >
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
       </div>
       <ButtenGradient />
+      <Hero />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
